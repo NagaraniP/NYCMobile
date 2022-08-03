@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7269E421289AEC3000B2D2E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269E420289AEC3000B2D2E1 /* AppDelegate.m */; };
+		7269E424289AEC3000B2D2E1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269E423289AEC3000B2D2E1 /* SceneDelegate.m */; };
+		7269E42A289AEC3000B2D2E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7269E428289AEC3000B2D2E1 /* Main.storyboard */; };
+		7269E42C289AEC3400B2D2E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7269E42B289AEC3400B2D2E1 /* Assets.xcassets */; };
+		7269E42F289AEC3400B2D2E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7269E42D289AEC3400B2D2E1 /* LaunchScreen.storyboard */; };
+		7269E432289AEC3400B2D2E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269E431289AEC3400B2D2E1 /* main.m */; };
+		7269E43C289AEC3400B2D2E1 /* NYCMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269E43B289AEC3400B2D2E1 /* NYCMobileTests.m */; };
+		7269E446289AEC3400B2D2E1 /* NYCMobileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269E445289AEC3400B2D2E1 /* NYCMobileUITests.m */; };
+		7269E448289AEC3400B2D2E1 /* NYCMobileUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269E447289AEC3400B2D2E1 /* NYCMobileUITestsLaunchTests.m */; };
+		7269E456289AEE0300B2D2E1 /* NYCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269E455289AEE0300B2D2E1 /* NYCRootViewController.m */; };
+		7269E45B289AEEBD00B2D2E1 /* NYCSchoolsSATDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7269E45A289AEEBD00B2D2E1 /* NYCSchoolsSATDetailsViewController.swift */; };
+		7269E45D289AEEF500B2D2E1 /* NYCSchoolsInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7269E45C289AEEF500B2D2E1 /* NYCSchoolsInfoViewController.swift */; };
+		7269E45F289AEF6200B2D2E1 /* NYCSchoolsViewModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7269E45E289AEF6200B2D2E1 /* NYCSchoolsViewModelObject.swift */; };
+		7269E461289AEF7400B2D2E1 /* NYCSATDetailsViewModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7269E460289AEF7400B2D2E1 /* NYCSATDetailsViewModelObject.swift */; };
+		7269E463289AEF9000B2D2E1 /* SchoolInfoModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7269E462289AEF9000B2D2E1 /* SchoolInfoModelObject.swift */; };
+		7269E465289AEF9F00B2D2E1 /* NYCSchoolSATDetailsModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7269E464289AEF9F00B2D2E1 /* NYCSchoolSATDetailsModelObject.swift */; };
+		7269E467289AEFB300B2D2E1 /* NetworkRequestObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7269E466289AEFB300B2D2E1 /* NetworkRequestObject.swift */; };
+		7269E469289AEFC400B2D2E1 /* NYCConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7269E468289AEFC400B2D2E1 /* NYCConstants.swift */; };
+		7269E46B289AEFD100B2D2E1 /* NYCNetworkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7269E46A289AEFD100B2D2E1 /* NYCNetworkAPI.swift */; };
+		7269E46E289AEFED00B2D2E1 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7269E46C289AEFEC00B2D2E1 /* CustomTableViewCell.xib */; };
+		7269E46F289AEFED00B2D2E1 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7269E46D289AEFED00B2D2E1 /* CustomTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7269E438289AEC3400B2D2E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7269E414289AEC3000B2D2E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7269E41B289AEC3000B2D2E1;
+			remoteInfo = NYCMobile;
+		};
+		7269E442289AEC3400B2D2E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7269E414289AEC3000B2D2E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7269E41B289AEC3000B2D2E1;
+			remoteInfo = NYCMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7269E41C289AEC3000B2D2E1 /* NYCMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYCMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7269E41F289AEC3000B2D2E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7269E420289AEC3000B2D2E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7269E422289AEC3000B2D2E1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7269E423289AEC3000B2D2E1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7269E429289AEC3000B2D2E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7269E42B289AEC3400B2D2E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7269E42E289AEC3400B2D2E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7269E430289AEC3400B2D2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7269E431289AEC3400B2D2E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7269E437289AEC3400B2D2E1 /* NYCMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYCMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7269E43B289AEC3400B2D2E1 /* NYCMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYCMobileTests.m; sourceTree = "<group>"; };
+		7269E441289AEC3400B2D2E1 /* NYCMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYCMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7269E445289AEC3400B2D2E1 /* NYCMobileUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYCMobileUITests.m; sourceTree = "<group>"; };
+		7269E447289AEC3400B2D2E1 /* NYCMobileUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYCMobileUITestsLaunchTests.m; sourceTree = "<group>"; };
+		7269E454289AEE0300B2D2E1 /* NYCRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYCRootViewController.h; sourceTree = "<group>"; };
+		7269E455289AEE0300B2D2E1 /* NYCRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYCRootViewController.m; sourceTree = "<group>"; };
+		7269E457289AEE7900B2D2E1 /* NYCMobile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NYCMobile-Bridging-Header.h"; sourceTree = "<group>"; };
+		7269E45A289AEEBD00B2D2E1 /* NYCSchoolsSATDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchoolsSATDetailsViewController.swift; sourceTree = "<group>"; };
+		7269E45C289AEEF500B2D2E1 /* NYCSchoolsInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchoolsInfoViewController.swift; sourceTree = "<group>"; };
+		7269E45E289AEF6200B2D2E1 /* NYCSchoolsViewModelObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchoolsViewModelObject.swift; sourceTree = "<group>"; };
+		7269E460289AEF7400B2D2E1 /* NYCSATDetailsViewModelObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSATDetailsViewModelObject.swift; sourceTree = "<group>"; };
+		7269E462289AEF9000B2D2E1 /* SchoolInfoModelObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolInfoModelObject.swift; sourceTree = "<group>"; };
+		7269E464289AEF9F00B2D2E1 /* NYCSchoolSATDetailsModelObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchoolSATDetailsModelObject.swift; sourceTree = "<group>"; };
+		7269E466289AEFB300B2D2E1 /* NetworkRequestObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestObject.swift; sourceTree = "<group>"; };
+		7269E468289AEFC400B2D2E1 /* NYCConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCConstants.swift; sourceTree = "<group>"; };
+		7269E46A289AEFD100B2D2E1 /* NYCNetworkAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCNetworkAPI.swift; sourceTree = "<group>"; };
+		7269E46C289AEFEC00B2D2E1 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		7269E46D289AEFED00B2D2E1 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7269E419289AEC3000B2D2E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7269E434289AEC3400B2D2E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7269E43E289AEC3400B2D2E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72430BCE289AF9B600BDF635 /* NetworkObject */ = {
+			isa = PBXGroup;
+			children = (
+				7269E466289AEFB300B2D2E1 /* NetworkRequestObject.swift */,
+			);
+			path = NetworkObject;
+			sourceTree = "<group>";
+		};
+		72430BCF289AF9D100BDF635 /* ModelObjects */ = {
+			isa = PBXGroup;
+			children = (
+				7269E462289AEF9000B2D2E1 /* SchoolInfoModelObject.swift */,
+				7269E464289AEF9F00B2D2E1 /* NYCSchoolSATDetailsModelObject.swift */,
+			);
+			path = ModelObjects;
+			sourceTree = "<group>";
+		};
+		72430BD0289AF9EC00BDF635 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7269E45E289AEF6200B2D2E1 /* NYCSchoolsViewModelObject.swift */,
+				7269E460289AEF7400B2D2E1 /* NYCSATDetailsViewModelObject.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		72430BD1289AF9FE00BDF635 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				7269E468289AEFC400B2D2E1 /* NYCConstants.swift */,
+				7269E46A289AEFD100B2D2E1 /* NYCNetworkAPI.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		72430BD2289AFA1100BDF635 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				7269E46C289AEFEC00B2D2E1 /* CustomTableViewCell.xib */,
+				7269E46D289AEFED00B2D2E1 /* CustomTableViewCell.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		72430BD3289AFA2F00BDF635 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7269E454289AEE0300B2D2E1 /* NYCRootViewController.h */,
+				7269E455289AEE0300B2D2E1 /* NYCRootViewController.m */,
+				7269E45A289AEEBD00B2D2E1 /* NYCSchoolsSATDetailsViewController.swift */,
+				7269E45C289AEEF500B2D2E1 /* NYCSchoolsInfoViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7269E413289AEC3000B2D2E1 = {
+			isa = PBXGroup;
+			children = (
+				7269E41E289AEC3000B2D2E1 /* NYCMobile */,
+				7269E43A289AEC3400B2D2E1 /* NYCMobileTests */,
+				7269E444289AEC3400B2D2E1 /* NYCMobileUITests */,
+				7269E41D289AEC3000B2D2E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7269E41D289AEC3000B2D2E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7269E41C289AEC3000B2D2E1 /* NYCMobile.app */,
+				7269E437289AEC3400B2D2E1 /* NYCMobileTests.xctest */,
+				7269E441289AEC3400B2D2E1 /* NYCMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7269E41E289AEC3000B2D2E1 /* NYCMobile */ = {
+			isa = PBXGroup;
+			children = (
+				72430BD3289AFA2F00BDF635 /* ViewControllers */,
+				72430BD2289AFA1100BDF635 /* Custom */,
+				72430BD1289AF9FE00BDF635 /* Constants */,
+				72430BD0289AF9EC00BDF635 /* ViewModels */,
+				72430BCF289AF9D100BDF635 /* ModelObjects */,
+				72430BCE289AF9B600BDF635 /* NetworkObject */,
+				7269E41F289AEC3000B2D2E1 /* AppDelegate.h */,
+				7269E420289AEC3000B2D2E1 /* AppDelegate.m */,
+				7269E422289AEC3000B2D2E1 /* SceneDelegate.h */,
+				7269E423289AEC3000B2D2E1 /* SceneDelegate.m */,
+				7269E428289AEC3000B2D2E1 /* Main.storyboard */,
+				7269E42B289AEC3400B2D2E1 /* Assets.xcassets */,
+				7269E42D289AEC3400B2D2E1 /* LaunchScreen.storyboard */,
+				7269E430289AEC3400B2D2E1 /* Info.plist */,
+				7269E431289AEC3400B2D2E1 /* main.m */,
+				7269E457289AEE7900B2D2E1 /* NYCMobile-Bridging-Header.h */,
+			);
+			path = NYCMobile;
+			sourceTree = "<group>";
+		};
+		7269E43A289AEC3400B2D2E1 /* NYCMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				7269E43B289AEC3400B2D2E1 /* NYCMobileTests.m */,
+			);
+			path = NYCMobileTests;
+			sourceTree = "<group>";
+		};
+		7269E444289AEC3400B2D2E1 /* NYCMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7269E445289AEC3400B2D2E1 /* NYCMobileUITests.m */,
+				7269E447289AEC3400B2D2E1 /* NYCMobileUITestsLaunchTests.m */,
+			);
+			path = NYCMobileUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7269E41B289AEC3000B2D2E1 /* NYCMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7269E44B289AEC3400B2D2E1 /* Build configuration list for PBXNativeTarget "NYCMobile" */;
+			buildPhases = (
+				7269E418289AEC3000B2D2E1 /* Sources */,
+				7269E419289AEC3000B2D2E1 /* Frameworks */,
+				7269E41A289AEC3000B2D2E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NYCMobile;
+			productName = NYCMobile;
+			productReference = 7269E41C289AEC3000B2D2E1 /* NYCMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7269E436289AEC3400B2D2E1 /* NYCMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7269E44E289AEC3400B2D2E1 /* Build configuration list for PBXNativeTarget "NYCMobileTests" */;
+			buildPhases = (
+				7269E433289AEC3400B2D2E1 /* Sources */,
+				7269E434289AEC3400B2D2E1 /* Frameworks */,
+				7269E435289AEC3400B2D2E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7269E439289AEC3400B2D2E1 /* PBXTargetDependency */,
+			);
+			name = NYCMobileTests;
+			productName = NYCMobileTests;
+			productReference = 7269E437289AEC3400B2D2E1 /* NYCMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7269E440289AEC3400B2D2E1 /* NYCMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7269E451289AEC3400B2D2E1 /* Build configuration list for PBXNativeTarget "NYCMobileUITests" */;
+			buildPhases = (
+				7269E43D289AEC3400B2D2E1 /* Sources */,
+				7269E43E289AEC3400B2D2E1 /* Frameworks */,
+				7269E43F289AEC3400B2D2E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7269E443289AEC3400B2D2E1 /* PBXTargetDependency */,
+			);
+			name = NYCMobileUITests;
+			productName = NYCMobileUITests;
+			productReference = 7269E441289AEC3400B2D2E1 /* NYCMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7269E414289AEC3000B2D2E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					7269E41B289AEC3000B2D2E1 = {
+						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
+					};
+					7269E436289AEC3400B2D2E1 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 7269E41B289AEC3000B2D2E1;
+					};
+					7269E440289AEC3400B2D2E1 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 7269E41B289AEC3000B2D2E1;
+					};
+				};
+			};
+			buildConfigurationList = 7269E417289AEC3000B2D2E1 /* Build configuration list for PBXProject "NYCMobile" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7269E413289AEC3000B2D2E1;
+			productRefGroup = 7269E41D289AEC3000B2D2E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7269E41B289AEC3000B2D2E1 /* NYCMobile */,
+				7269E436289AEC3400B2D2E1 /* NYCMobileTests */,
+				7269E440289AEC3400B2D2E1 /* NYCMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7269E41A289AEC3000B2D2E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7269E42F289AEC3400B2D2E1 /* LaunchScreen.storyboard in Resources */,
+				7269E42C289AEC3400B2D2E1 /* Assets.xcassets in Resources */,
+				7269E46E289AEFED00B2D2E1 /* CustomTableViewCell.xib in Resources */,
+				7269E42A289AEC3000B2D2E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7269E435289AEC3400B2D2E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7269E43F289AEC3400B2D2E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7269E418289AEC3000B2D2E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7269E461289AEF7400B2D2E1 /* NYCSATDetailsViewModelObject.swift in Sources */,
+				7269E421289AEC3000B2D2E1 /* AppDelegate.m in Sources */,
+				7269E45D289AEEF500B2D2E1 /* NYCSchoolsInfoViewController.swift in Sources */,
+				7269E45B289AEEBD00B2D2E1 /* NYCSchoolsSATDetailsViewController.swift in Sources */,
+				7269E45F289AEF6200B2D2E1 /* NYCSchoolsViewModelObject.swift in Sources */,
+				7269E432289AEC3400B2D2E1 /* main.m in Sources */,
+				7269E46B289AEFD100B2D2E1 /* NYCNetworkAPI.swift in Sources */,
+				7269E463289AEF9000B2D2E1 /* SchoolInfoModelObject.swift in Sources */,
+				7269E467289AEFB300B2D2E1 /* NetworkRequestObject.swift in Sources */,
+				7269E469289AEFC400B2D2E1 /* NYCConstants.swift in Sources */,
+				7269E46F289AEFED00B2D2E1 /* CustomTableViewCell.swift in Sources */,
+				7269E465289AEF9F00B2D2E1 /* NYCSchoolSATDetailsModelObject.swift in Sources */,
+				7269E424289AEC3000B2D2E1 /* SceneDelegate.m in Sources */,
+				7269E456289AEE0300B2D2E1 /* NYCRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7269E433289AEC3400B2D2E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7269E43C289AEC3400B2D2E1 /* NYCMobileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7269E43D289AEC3400B2D2E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7269E446289AEC3400B2D2E1 /* NYCMobileUITests.m in Sources */,
+				7269E448289AEC3400B2D2E1 /* NYCMobileUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7269E439289AEC3400B2D2E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7269E41B289AEC3000B2D2E1 /* NYCMobile */;
+			targetProxy = 7269E438289AEC3400B2D2E1 /* PBXContainerItemProxy */;
+		};
+		7269E443289AEC3400B2D2E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7269E41B289AEC3000B2D2E1 /* NYCMobile */;
+			targetProxy = 7269E442289AEC3400B2D2E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7269E428289AEC3000B2D2E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7269E429289AEC3000B2D2E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7269E42D289AEC3400B2D2E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7269E42E289AEC3400B2D2E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7269E449289AEC3400B2D2E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7269E44A289AEC3400B2D2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7269E44C289AEC3400B2D2E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NYCMobile/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.NYCMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NYCMobile/NYCMobile-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7269E44D289AEC3400B2D2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NYCMobile/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.NYCMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NYCMobile/NYCMobile-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7269E44F289AEC3400B2D2E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.NYCMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYCMobile.app/NYCMobile";
+			};
+			name = Debug;
+		};
+		7269E450289AEC3400B2D2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.NYCMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYCMobile.app/NYCMobile";
+			};
+			name = Release;
+		};
+		7269E452289AEC3400B2D2E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.NYCMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NYCMobile;
+			};
+			name = Debug;
+		};
+		7269E453289AEC3400B2D2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.NYCMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NYCMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7269E417289AEC3000B2D2E1 /* Build configuration list for PBXProject "NYCMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7269E449289AEC3400B2D2E1 /* Debug */,
+				7269E44A289AEC3400B2D2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7269E44B289AEC3400B2D2E1 /* Build configuration list for PBXNativeTarget "NYCMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7269E44C289AEC3400B2D2E1 /* Debug */,
+				7269E44D289AEC3400B2D2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7269E44E289AEC3400B2D2E1 /* Build configuration list for PBXNativeTarget "NYCMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7269E44F289AEC3400B2D2E1 /* Debug */,
+				7269E450289AEC3400B2D2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7269E451289AEC3400B2D2E1 /* Build configuration list for PBXNativeTarget "NYCMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7269E452289AEC3400B2D2E1 /* Debug */,
+				7269E453289AEC3400B2D2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7269E414289AEC3000B2D2E1 /* Project object */;
+}
